@@ -1,7 +1,9 @@
 import random
 from PIL import Image
 from numpy import *
-
+a, b = input().split()
+print(a, b)
+exit()
 
 def get_thum(image, size=(64, 64), greyscale=False):
     # 利用image对图像大小重新设置, Image.ANTIALIAS为高质量的

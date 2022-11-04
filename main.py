@@ -5,7 +5,8 @@ import time
 from PIL import Image
 import matplotlib.pyplot as plt
 
-url = 'https://live.bilibili.com/24003948?broadcast_type=0&is_room_feed=1&spm_id_from=333.999.0.0'
+# url = 'https://live.bilibili.com/24003948?broadcast_type=0&is_room_feed=1&spm_id_from=333.999.0.0'
+url = 'https://live.bilibili.com/26332543'
 driver = webdriver.Edge('msedgedriver.exe')
 driver.get(url)
 driver.delete_all_cookies()

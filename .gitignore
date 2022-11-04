@@ -148,3 +148,5 @@ cifar_net.pth
 r.py
 *.jpg
 *.csv
+c
+*.png

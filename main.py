@@ -31,8 +31,7 @@ while True:
     print(crop)
     print('Saved %d' % j)
     if flag:
-        plt.imshow(img.crop(crop))
-        plt.show()
+        img.crop(crop).show()
         s = input('offset:x1, y1, x2, y2:')
         if s == 'ok':
             flag = False

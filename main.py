@@ -22,7 +22,7 @@ print('OK.')
 name = ['a.png']
 j = 1
 flag = True
-crop = [10, 175, 920, 685]
+crop = [90, 305, 1325, 995]
 while True:
     time.sleep(3.6)
     driver.get_screenshot_as_file(name[0])
